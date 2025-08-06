@@ -1,0 +1,9 @@
+const user_controller = require('../controllers/user_controller');
+const express = require('express');
+const router = express.Router();
+
+
+
+router.post('/user/signup', user_controller.user_signup);
+router.post('/user/login', user_controller.user_login);
+router.get('/user/:id', user_controller.get_user_by_id);
