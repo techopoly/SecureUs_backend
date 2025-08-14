@@ -1,0 +1,1 @@
+//the codes for the auth controller is merged with the auth routes.
